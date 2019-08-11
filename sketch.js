@@ -5,7 +5,7 @@ var cloudsGroup, cloudImage;
 var obstaclesGroup, obstacle1, obstacle2, obstacle3, obstacle4, obstacle5, obstacle6;
 
 
-
+/*
 ￼function preload(){
   var imagelist=["trex1.png","trex3.png","trex4.png","trex_collided.png","cloud.png","obstacle1.png","obstacle2.png",
                  "obstacle3.png","obstacle4.png","obstacle5.png","obstacle6.png"];
@@ -14,7 +14,7 @@ var obstaclesGroup, obstacle1, obstacle2, obstacle3, obstacle4, obstacle5, obsta
     img.push(loadImage(imagelist[i]));
   }
 }
-/*
+*/
 function preload(){
   trex_running = loadAnimation("trex1.png","trex3.png","trex4.png");
   trex_collided = loadImage("trex_collided.png");
@@ -32,7 +32,7 @@ function preload(){
  
   
   
-}*/
+}
 
 function setup() {
   createCanvas(600, 200);
